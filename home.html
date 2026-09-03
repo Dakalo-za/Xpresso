@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Xpresso</title>
+</head>
+<body>
+    <section id="hero-image">
+    <nav id="web-nav">
+        <div class="logo"><h1>Xpresso</h1></div>
+        <ul>
+            <li><a href="#find-us">Find Us</a></li>
+            <li><a href="#culture">Culture</a></li>
+            <li><a href="#entertainment">Entertainment</a></li>
+            <li><a href="#best-sellers">Best Sellers</a></li>
+        </ul>
+    </nav>
+    <nav id="burger-nav">
+        <div class="logo">Xpresso</div>
+        <div class="burger-menu">
+            <div class="burger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+               <li><a href="#Find Us" onclick="toggleMenu()">Find Us </a></li>
+               <li><a href="#Best Sellers" onclick="toggleMenu()">Best Sellers</a></li>
+               <li><a href="#Our Culture" onclick="toggleMenu()">Our Culture</a></li>
+            </div>
+        </div>
+    </nav>
+    <div class="hero-text">
+            <h2>Greate Coffee, Made Simple</h2>
+            <P>Freshly brewed coffee, rich flavours and a welcoming spave for slow mornings</P>
+            <button id="bookTable">Book Table</button>
+        </div>
+    </section>
+
+    <section id="culture">
+            <div class="culture-img">
+                <h1>Our Culture</h1>
+                <img src="assets/culture1.png" alt="picture" class="culture-image-size1">
+                <img src="assets/culture2.png" alt="picture" class="culture-image-size2">
+                <img src="assets/culture3.png" alt="picture" class="culture-image-size3">
+                <p>
+                   Our culture is built around great coffee, warm conversations, and creating a welcoming space where everyone feels at home.<br>
+                   We value quality, kindness, and meaningful connections. Every visit should feel comfortable, relaxing, and memorable.
+                </p>
+            </div>
+    </section>
+
+    <section id="entertainment">
+        <div class="music-title">
+            <h1>Entertainment</h1>
+        </div>
+        <img src="assets/jazz-band.png" alt="picture">
+        <div class="music-container">
+            <h2>Live Jazz Weekends</h2>
+            <p>Join us every weekend for live jazz, delicious coffee, and a relaxing evening atmosphere.</p>
+            <p><strong>Friday:</strong> 7:00 PM – 9:00 PM | 6 songs</p>
+            <p><strong>Saturday:</strong> 6:00 PM – 9:00 PM | 8 songs</p>
+            <p><strong>Sunday:</strong> 5:00 PM – 8:00 PM | 8 songs</p>
+        </div>
+    </section>
+
+    <section id="best-sellers">
+        <div class="text-p"><p>Menu</p></div>
+        <div class="text-h"><h1>Best Sellers</h1></div>
+        <div class="card-container">
+            <div class="card">
+                <img src="assets/Cozy caramel latte with leaf art.png" alt="item">
+                <div class="card-content">
+                    <h3>Cozy Caramel latte</h3>
+                    <p class="price">R79,99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/Double Espresso.png" alt="item">
+                <div class="card-content">
+                    <h3>Double Espresso</h3>
+                    <p class="price">R68,99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/Cream-Swirled Cold Brew.png" alt="item">
+                <div class="card-content">
+                    <h3>Cream-Swirled Cold Brew</h3>
+                    <p class="price">R89,99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/Golden butter croissant.png" alt="item">
+                <div class="card-content">
+                    <h3>Golden butter croissant</h3>
+                    <p class="price">R49,99</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="find-us">
+        <div class="find-us-container">
+            <div class="find-us-title">
+                <p>Location</p>
+                <h1>Find Us</h1>
+            </div>
+            <div class="find-us-map">
+                <img src="assets/gps.png" alt="location">
+                <p>24 Willow Lane, Rosebank, Johannesburg, 2196</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="foot">
+        <div class="footer-section">
+            <h2>Xpresso</h2>
+            <p>All rights deserved</p>
+        </div>
+
+        <div class="footer-section contact-info">
+            <h3>Contact Us</h3>
+            <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+            <p><i class="fas fa-envelope"></i> info@xpresso.com</p>
+            <p><i class="fas fa-map-marker-alt"></i>24 Willow Lane, Rosebank, Johannesburg, 2196</p>
+        </div>
+
+        <div class="footer-section hours">
+            <h3>Hours</h3>
+            <p>Mon - Thu: 7AM - 9PM</p>
+            <p>Fri - Sun: 8AM - 8PM</p>
+        </div>
+
+        <div class="footer-section links">
+            <h3>Quick Links</h3>
+            <a>Menu</a>
+            <a>About</a>
+            <a>Blogs</a>
+            <a href="book.html">Book Now</a>
+        </div>
+
+        <div class="footer-section social">
+            <h3>Follow Us</h3>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </footer>
+    
+    <script src="home.js"></script>
+    
+</body>
+</html>
+
